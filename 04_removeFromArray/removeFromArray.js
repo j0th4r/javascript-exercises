@@ -1,5 +1,4 @@
 const removeFromArray = function(arr, ...remove) {
-  let newArr = arr;
   //loop through each number in remove rest parameter
   for(let i = 0; i < remove.length; i++) {
     //loop through each number in the array
