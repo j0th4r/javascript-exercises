@@ -7,11 +7,8 @@ const sumAll = function(augend, addend) {
     }
   }
 
-  let temp = addend;
-  if(augend > addend) {
-    addend = augend;
-    augend = temp;
-  }
+  if(augend > addend) [augend, addend] = [addend, augend];
+  
 
   for(let i = augend; i <= addend; i++) {
     sum += i;
