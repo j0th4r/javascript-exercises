@@ -8,6 +8,5 @@ const fibonacci = function(number) {
   }
   return fibonacci(num - 1) + fibonacci(num - 2);
 };
-console.log(fibonacci(0));
 // Do not edit below this line
 module.exports = fibonacci;
